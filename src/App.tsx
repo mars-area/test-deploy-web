@@ -5,7 +5,6 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -32,6 +31,7 @@ function App() {
       <div className='container'>
         <div className="square"></div>
       </div>
+      <p>Created at sekarang</p>
     </>
   )
 }
